@@ -2,8 +2,6 @@ import yt_dlp # type: ignore
 import os
 import subprocess
 
-# "type: ignore" is used to suppress warnings that are false, don't remove it
-
 subprocess.run('cls', shell=True)
 
 print("Custom YouTube Downloader/Converter")
@@ -54,3 +52,4 @@ def download_video(url):
 if __name__ == "__main__":
     url = input("Enter YouTube video URL: ")
     download_video(url)
+
