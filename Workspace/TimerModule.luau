@@ -1,6 +1,6 @@
 --[[
-  Script Type = ModuleScript
-  Script Parent = ReplicatedStorage (or ReplicatedStorage.ModuleScripts for cleaner structure)
+    Script Type = ModuleScript
+    Script Parent = ReplicatedStorage (or ReplicatedStorage.ModuleScripts for cleaner structure)
 ]]
 
 intermissionDuration = 180
