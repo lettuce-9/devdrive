@@ -34,3 +34,13 @@ end
 -- Main timer still unfinished!
 
 return timer
+
+--[[
+	To use this module (or any module in general), use these lines :
+
+	local RS = game:GetService("ReplicatedStorage")
+	local timer = RS.TimerModule  -- or RS.ModuleScripts.TimerModule
+	local label = script.Parent  -- Script should be parented in a StarterGui.ScreenGui.TextLabel
+
+	timer:StartIntermission(label)
+]]
